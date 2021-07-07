@@ -1,0 +1,134 @@
+/* global setting */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe918d;
+  --color-dark-pink: #ff6863;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-blue: #73aace;
+  --color-yellow: #fff7d1;
+  --color-orange: #feb546;
+  --color-black: #000000;
+
+  --color-basicgrey:#f6f5f3;
+  --color-font:#19110b;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  --border-bottom: 2px solid #7c7979;
+
+  /* Font weight */
+  --weight-1: 100;
+  --weight-2: 300;
+  --weight-3: 400;
+  --weight-4: 500;
+  --weight-5: 700;
+  --weight-6: 900;
+}
+
+/* univalsal tags */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  cursor: default;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-font);
+}
+
+li{
+  list-style: none;
+}
+
+/* Typography */
+
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0;
+}
+
+#topbar{
+  display: flex;
+  justify-self: space-btween;
+  background-color: var(--color-white);
+  border-bottom:#e1dfd8 solid 1px;
+  border-top: #e1dfd8 solid 1px;
+
+  align-items: center;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-1);
+
+cursor: pointer;
+
+  
+}
+
+.topbar_left{
+  
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 400px;
+
+  font-size: var(--font-micro);
+  font-weight: var(--weight-1);
+
+}
+
+
+.topbar_right{
+  display: flex;
+  padding-left: 350px;
+
+}
+
+.topbar_right_item {
+padding: 10px 13px;
+
+}
+
+/* .topbar_right_item :hover{
+  border-bottom: var(--border-bottom);
+} */
+
+
+.topbar_right_item.active:hover{
+  border-bottom: var(--border-bottom);
+}
