@@ -24,17 +24,17 @@
 <body>
   <!-- header -->
   <header id="topbar">
-  <div class="topbar_left">
-
+     <div class="topbar_left">
   
-    <img id="img" src="img/korea.PNG" 
-    alt="korea flag"/>배송지: 대한민국
-    <i class="far fa-question-circle">도움이 필요하세요?</i>
-    <i class="fas fa-mobile-alt"> 02 3432 1854 </i>
-    <a href="https://kr.louisvuitton.com/kor-kr/magazine/sustainability">지속가능성</a>
-  </div>
+        <li class="img"><img id="img" src="img/korea.PNG" 
+          alt="korea flag"/> </li>
+        <li class="topbar_left_item"id="location">배송지: 대한민국</li>
+        <li class="topbar_left_item"><i class="far fa-question-circle"></i> 도움이 필요하세요? </li>
+        <li class="topbar_left_item"> <i class="fas fa-mobile-alt"></i> 02 3432 1854
+        <li class="topbar_left_item"><a href="https://kr.louisvuitton.com/kor-kr/magazine/sustainability">지속가능성</a></li>
+     </div>
 
-    <div class="topbar_right">
+     <div class="topbar_right">
       <li class="topbar_right_item active"><i class="fas fa-map-marker-alt"></i></li>
       <li class="topbar_right_item"><i class="far fa-heart"><span class="wishlist-count">1</span></i></li>
       <li class="topbar_right_item"><i class="far fa-user"></i></li>
@@ -46,70 +46,157 @@
   <!-- nav -->
 <nav id="navbar">
   <ul class="navar-menu">
-    <li class="navbar-menu-item">LOUIS VUITTON</li>
+    <li class="navbar-menu-item" id="logo">LOUIS VUITTON</li>
     <li class="navbar-menu-item">WHAT'S NEW</li>
     <li class="navbar-menu-item">여성</li>
     <li class="navbar-menu-item">남성</li>
     <li class="navbar-menu-item">라이프 스타일</li>
     <li class="navbar-menu-item">MAGAZINE</li>
-    <input type="text" placeholder="'신상품'을 검색해보세요!">
+    <input id="search" type="text" placeholder="'신상품'을 검색해보세요!">
   </ul>
+
 </nav>
 
 <!-- home -->
-<section id="banner">
+<section id="banner" class="section">
 <img src="img/banner1.PNG" 
-alt="banner photo"
-class="banner1"/>
+alt="banner photo" class="banner1"/>
+
+<div id="banner-discription">
 <h4 class="banner-title">루이 비통 2021 가을_겨울 남성 패션쇼</h4>
-<h5 class="banner-description">7월 7일 (수)한국시간 오후 7시 라이브 생중계</h5>
-<button class="banner-btn">곧 공개됩니다</button>
+<h5 class="descriptions">7월 7일 (수) 한국시간 오후 7시 라이브 생중계</h5>
+<button class="btn"id="banner-btn">곧 공개됩니다</button>
+</div>
 </section>
 
-<section id="new1"></section>
-<img src="img/new1.PNG" 
-alt="middle of photo1"
-class="new1"/>
-<h4 class="new1-title">캔버스와 톤 배색을 이루는 LV스쿼드</h4>
-<h5 class="new1-description">청키하면서도 가벼운 하이탑 실루엣의 스니커즈</h5>
+<section id="newset" class="section">
+<div class="newset">
+  <div class="newset-left">
+
+    <div id="new1">
+      <div class="nimg">
+        <img id="new1img" src="img/new1.PNG" 
+        alt="middle of photo1"/>
+      </div>
+      <div class="new1-description">
+        <h4 class="new1-title">캔버스와 톤 배색을 이루는 LV스쿼드</h4>
+        <h5 class="descriptions">청키하면서도 가벼운 하이탑 실루엣의 스니커즈</h5>
+      </div>
+    </div>
+  </div>  
+  <div class="newset-right">
+
+    <div id="new2">
+      <div id="new2-title">
+        <h1>TRY ON!</h1>
+      </div>
+      <div id="new2-img">
+        <img src="img/new2.PNG" 
+          alt="middle of photo2" class="new2"/>
+      </div>    
+
+      <div id="new2-description">
+        <button class="btn" id="new2-btn">사이즈 선택하기</button>
+      </div>
+    </div>
+
+    <div id="new3">
+      <div id="new3-img">
+        <img src="img/new3.PNG" 
+          alt="middle of photo3" class="nimg"/>
+      </div>
+      <div id="new3-discription">
+        <h4 class="new3-title">클래식한 모노그램 모티프의 여성의류</h4>
+        <h5 class="descriptions">레오파드 프린트가 돋보이는 티셔츠&쇼츠</h5>
+        <button class="btn" id="new3-btn">쇼핑하기</button>
+      </div>
+    </div>
+  </div>
+  
+  </div> 
 </section>
 
-<section id="new2"></section>
-<img src="img/twist_home.PNG" 
-alt="middle of photo2"
-class="new2"/>
-<button class="new2-btn">쇼핑백에 담기</button>
 
 
-<section id="new3"></section>
-<img src="img/new3.PNG" 
-alt="middle of photo3"
-class="new3"/>
-<h4 class="new3-title">클래식한 모노그램 모티프의 여성의류</h4>
-<h5 class="new3-description">레오파드 프린트가 돋보이는 티셔츠&쇼츠</h5>
-<button class="new3-btn">쇼핑하기</button>
+<section id="recommendset" class="section">
+  <div class="recoset">
 
+    <div id="recommend1" class="recobox">
+      
+      <div>
+        <img src="img/recommend1.PNG" alt="last of photo1"class="nimg"/>
+      </div>
+    <div class"reco-discription">
+        <h4 class="recommend1-title">데일리 액세서리 선글라스</h4>
+        <h5 class="descriptions">스퀘어 실루엣과 은은한 디테일의 조화</h5>
+    </div>
 
-<section id="recommend1"></section>
-<img src="img/recommend1.PNG" 
-alt="last of photo1"
-class="recommend1"/>
-<h4 class="recommend1-title">데일리 액세서리 선글라스</h4>
-<h5 class="recommend1-description">스퀘어 실루엣과 은은한 디테일의 조화</h5>
+  </div>
 
-<section id="recommend2"></section>
-<img src="img/recommend2.PNG" 
-alt="last of photo2"
-class="recommend2"/>
-<h4 class="recommend2-title">모노그램 앙프렝뜨 가죽 백</h4>
-<h5 class="recommend2-description">강렬한 프린트와 모던한 컬러의 조화</h5>
+    <div id="recommend2" class="recobox">
 
-<section id="recommend3"></section>
-<img src="img/recommend3.PNG" 
-alt="last of photo3"
-class="recommend3"/>
-<h4 class="recommend3-title">포쉐트 쿠상 체인 클러치 백</h4>
-<h5 class="recommend3-description">4가지 컬러의 매력적인 클러치</h5>
+      <div>
+        <img src="img/recommend2.PNG" alt="last of photo2"class="nimg"/>
+      </div>
+      <div class"reco-discription">
+        <h4 class="recommend2-title">모노그램 앙프렝뜨 가죽 백</h4>
+        <h5 class="descriptions">강렬한 프린트와 모던한 컬러의 조화</h5>
+      </div>
+    </div>
+    
+
+  <div id="recommend3" class="recobox">
+    <div>
+    <img src="img/recommend3.PNG" 
+    alt="last of photo3"class="nimg"/>
+    </div>
+    <div class"reco-discription">
+      <h4 class="recommend3-title">포쉐트 쿠상 체인 클러치 백</h4>
+      <h5 class="descriptions">4가지 컬러의 매력적인 클러치</h5>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<footer class="footer">
+  <div class="footer-title">
+    <h5 id="footer-logo">LOUIS VUITTON</h5>
+  </div>
+
+  <div class="footer-content">
+    <ul class="footer-menu">
+    <li>뉴스레터</li>
+    <li>고객지원</li>
+    <li>앱</li>
+    <li>소셜 미디어</li>
+    <li>법적고지 및 개인정보취급방침</li>
+    <li>개인정보처리방침</li>
+    <li>채용정보</li>
+    <li>사이트맵</li>
+  </ul>
+  </div>
+
+  <div class="footer-description">
+    <div class="first-footer-discrip">
+      <p>
+      루이비통코리아(유)|대표이사:데이비드폰조
+      <br><br>
+      서울시 강남구 삼성로 511|사업자등록번호:102-81-29113</루이비통코리아>
+      <br><br>
+      고객센터:02-3432-1854|email:korea@contact.louisvuitton.com
+      </p>
+    </div>
+
+    <div class="second-footer-discrip">
+      씨티은행 구매안전 서비스(채무지급보증)
+      <br><br>
+      고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 씨티은행
+        구매안전서비스(지급보증서)를 이용하실 수 있습니다.</h5>
+    </div>
+  </div>  
+
+</footer>
 
 </body>
 
