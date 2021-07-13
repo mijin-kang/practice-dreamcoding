@@ -92,8 +92,8 @@ border-top:2px solid var(--color-basicgrey) ;
 
 .topbar_left{
   display: flex;
-  margin: 1px 35px 0 35px;
-  padding: 5px;
+  margin: 1px 0px 0 60px;
+  align-items: center;
 }
 
 .topbar_left_item{
@@ -105,7 +105,9 @@ border-top:2px solid var(--color-basicgrey) ;
   
 }
 
-
+#location{
+  padding-left: 2px;
+}
 .topbar_right{
   display: flex;
 }
@@ -139,14 +141,18 @@ cursor: pointer;
   
 
 }
+#navbar{
+  margin: 20px 0;
+}
 
-
-.navar-menu{
-  display: flex;
+/* .navar-menu{
+  display: inline-block;
 margin: 22px 30px;
-
-  
-  }
+} */
+ul.navar-menu>li{
+  display: inline-block;
+position: relative;
+}
 
 .navbar-menu-item{
   
@@ -156,10 +162,35 @@ margin: 22px 30px;
   background-color: var(--color-white);
   color: var(--color-font);
   padding: 0 25px 0 20px;
+  
 }
 
-#search{
-padding-left: 30px;
+ul.navar-menu>li ul.navbar-firstul{
+  position: absolute;
+}
+ul.navar-menu>li ul.navbar-firstul>li{
+  display: inline-block;
+  text-align: center;
+}
+
+/* .navbar-menu:hover>ul{
+  display: block;
+  } */
+
+.lv-search{
+  display: flex;
+  background-color: var(--color-basicgrey);
+  padding: 12px 120px 12px 21px;
+  border-radius: 7%;
+  position: relative;
+  left: 20em;
+}
+
+#search-input{
+  margin-left: 10px;
+  border: none;
+  background: none;
+  outline: none;
 }
 
 #logo{
@@ -281,9 +312,7 @@ display: flex;
 color: white;
 font-weight: var(--weight-4);
 }
-.footer-content{
-  
-}
+
 
 .footer-menu{
   display: flex;
@@ -311,5 +340,5 @@ flex-basis: 50%;
 }
 .second-footer-discrip{
   flex-basis: 50%;
-
+margin: 8px 0;
 }

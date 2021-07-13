@@ -24,17 +24,17 @@
 <body>
   <!-- header -->
   <header id="topbar">
-     <div class="topbar_left">
+    <div class="topbar_left">
   
-        <li class="img"><img id="img" src="img/korea.PNG" 
+        <li class="img"><img src="img/korea.PNG" 
           alt="korea flag"/> </li>
         <li class="topbar_left_item"id="location">배송지: 대한민국</li>
         <li class="topbar_left_item"><i class="far fa-question-circle"></i> 도움이 필요하세요? </li>
         <li class="topbar_left_item"> <i class="fas fa-mobile-alt"></i> 02 3432 1854
         <li class="topbar_left_item"><a href="https://kr.louisvuitton.com/kor-kr/magazine/sustainability">지속가능성</a></li>
-     </div>
+    </div>
 
-     <div class="topbar_right">
+    <div class="topbar_right">
       <li class="topbar_right_item active"><i class="fas fa-map-marker-alt"></i></li>
       <li class="topbar_right_item"><i class="far fa-heart"><span class="wishlist-count">1</span></i></li>
       <li class="topbar_right_item"><i class="far fa-user"></i></li>
@@ -48,11 +48,85 @@
   <ul class="navar-menu">
     <li class="navbar-menu-item" id="logo">LOUIS VUITTON</li>
     <li class="navbar-menu-item">WHAT'S NEW</li>
-    <li class="navbar-menu-item">여성</li>
-    <li class="navbar-menu-item">남성</li>
-    <li class="navbar-menu-item">라이프 스타일</li>
+    <li class="navbar-menu-item">여성
+      <ul class="navbar-firstul">
+          <li>핸드백
+          <ul>
+            <li>핸드백 전체보기</li>
+            <li>숄더&크로스백</li>
+            <li>토트백</li>
+            <li>체인백&클러치</li>
+          </ul>
+        </li>
+        <li>트래블
+          <ul>
+            <li>러기지 전체보기</li>
+            <li>롤링 러기지</li>
+          </ul>
+        </li>
+        <li>의류
+          <ul>
+            <li>최신 룩 보기</li>
+          </ul>
+        </li>
+        <li>주얼리
+          <ul>
+            <li>파인주얼리 전체보기</li>
+            <li>반지</li>
+            <li>귀걸이</li>
+            <li>목걸이&팬던트</li>
+          </ul>
+        </li>
+      </ul>
+    </li>  
+    <li class="navbar-menu-item">남성
+      <ul>
+        <li>지갑&가죽소품
+          <ul>
+            <li>지갑&가죽 소품 전체보기</li>
+            <li>반지갑</li>
+            <li>웨어러블 가죽소품</li>
+          </ul>
+        </li>
+        <li>슈즈
+          <ul>
+            <li>슈즈 전체보기</li>
+            <li>스니커즈</li>
+            <li>샌들</li>
+          </ul>
+        </li>
+        <li>워치&주얼리
+          <ul>
+            <li>워치&액세서리 전체보기</li>
+            <li>워치</li>
+          </ul>
+        </li>
+      </ul>
+    </li> 
+    <li class="navbar-menu-item">라이프 스타일
+      <ul>
+        <li>게입&콜렉터블
+          <ul>
+          <li>게임도구</li>
+          </ul>
+        </li>
+        <li>리빙
+          <ul>
+            <li>가구</li>
+            <li>데코</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
     <li class="navbar-menu-item">MAGAZINE</li>
-    <input id="search" type="text" placeholder="'신상품'을 검색해보세요!">
+    
+    <form id="searchbar" action="#" method="post">
+      <div class="lv-search">
+          <i class="fas fa-search"></i>
+      <label for="search-input"></label>    
+      <input id="search-input" type="text" placeholder="'신상품'을 검색해보세요!">
+      </div>    
+    </form>
   </ul>
 
 </nav>
