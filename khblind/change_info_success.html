@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>밤부-직장인들의 수다 놀이터</title>
+  <link rel="icon" type="image/png" href="imgs/bb.png" />
+
+  <script 
+    src="https://kit.fontawesome.com/77858aaef8.js" crossorigin="anonymous">
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div id="menu-bar">
+      <div class="logo-box">
+        <h1><a href="#">BamBo</a></h1>
+        <h1 class="logoimg"><i class="far fa-eye"></i></h1>
+      </div>
+
+      <div class="wrap">
+        
+          <ul class="menu">
+            <li class="menu-list">
+              <a href="" class="menu-item">홈</a>
+            </li>
+            <li class="menu-list">
+              <a href=""class="menu-item">기업리뷰</a>
+              <ul>
+                <li><a href="">서브1</a></li>
+                <li><a href="">서브2</a></li>
+              </ul>
+            </li>
+          </ul>  
+        
+      
+        <div class="btn-box">
+        <button class="btn-top">
+          <a href="#"id="btn-top1">로그인</a>
+        </button>
+        <button class="btn-top">
+          <a href="#"id="btn-top2">회원가입</a>
+        </button>
+        </div>
+      </div>  
+    </div>
+</header>
+    
+
+<hr>
+<section class="section-3">
+  
+  <div class="successTitle-box">
+    <h2>회원정보 변경이 완료되었습니다!</h2>
+  </div>
+
+  <div class="success-box">
+    
+    <div class="row">
+      <h3><a href="${pageContext.request.contextPath}"><i class="fas fa-laptop-house"></i>홈</a></h3>
+    </div>
+  
+	
+    <div class="row">
+      <h3><a href="${pageContext.request.contextPath}/member/login">내 정보 바로가기</a></h3>
+    </div>
+  </div>
+
+</section>
+<hr>
+
+<footer>
+  <div class="footer-content">
+    <ul class="footer-menu">
+      <li class="f-li">서비스소개</li>
+      <li class="f-li">이용약관</li>
+      <li class="f-li">디렉토리</li>
+      <li class="f-li">개인정보 처리방침</li>
+      <li class="f-li">기업서비스</li>
+    </ul>
+  </div>
+  
+  <h5>KH Academy취업반 수업자료 &copy;</h5>
+
+  <div class="app-box">
+    <div class="abox1">
+      <a href="#"><i class="fab fa-apple"></i>APP STORE</a>
+    </div>
+    <div class="abox2">
+        <a href="#"><i class="fab fa-google-play"></i>GOOGLE PLAY</a>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+</html>
+
+
+
+
+a{
+  position:relative;
+  display:block; 
+  width:100px; 
+  height:40px; 
+  text-align:center; 
+  line-height:40px; 
+  border : 2px solid #000;
+  text-decoration:none;
+  color: #000;
+  transition: all  0.3s;
+}
+a:after{
+  content:"";
+  position: absolute;
+  top:5px; left:5px;
+  width:100%; height:100%;
+  border-bottom:2px solid #000;
+  border-right: 2px solid #000;
+}
+a:active{
+  top:5px;
+  left:5px;
+}
+a:active:after{
+  border:0;
+}

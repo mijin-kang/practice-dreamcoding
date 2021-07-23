@@ -9,7 +9,7 @@
 --color-grey2:#dbd9d7;
 --color-brown: #c8a379;
 --color-redbrown: #7c4c41;
-
+--color-backg:#f6f5ef;
 /* FONT-SIZE */
 --font-regular:20px;
 --font-title:35px;
@@ -71,6 +71,15 @@ h3{
   font-weight: var(--weight-3);
   color: var(--color-black);
   margin: 8px 0;
+}
+
+.red-ball{
+    position: absolute;
+    top:0;
+    left:0;
+    width:15px;
+    height:15px;
+    background:red;
 }
 
 .menu>li{
@@ -272,6 +281,9 @@ height: 1.5px;
   transition: all var(--anni-duration)ease-in;
 }
 
+.article h3{
+  text-align: center;
+}
 
 
 #a1{
@@ -345,6 +357,8 @@ padding-right: 15px;
 footer{
   text-align: center;
   position: relative;
+  padding: 30px 0;
+  color: var(--color-grey1);
 }
 .footer-menu{
   display: flex;
@@ -352,6 +366,8 @@ footer{
 
 .f-li{
   padding: 0 10px;
+  font-size: 13px;
+
 }
 .app-box{
   position: absolute;
